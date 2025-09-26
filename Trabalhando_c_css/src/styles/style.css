@@ -7,8 +7,8 @@ p {
     font-size: xx-large;
     line-height: 50px;
     /*Espaçamento entre as linhas*/
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h1 {
@@ -32,13 +32,43 @@ h2 {
     /* expessura da fonte  */
 }
 
-button{
-/* padding-top: 12px;
+button {
+    /* padding-top: 12px;
 padding-right: 30px;
 padding-bottom: 12px;
 padding-left: 30px; */
+    /* padding: 12px 30px 12px 30px; */
+    padding: 30px 15px;
+    border: 5px double purple;
+    /*expessura, tipo, cor*/
+    margin: 50px;
+}
 
-/* padding: 12px 30px 12px 30px; */
+.senai {
+    color: blue;
+}
 
-padding: 30px 15px;
+.tec {
+    color: red;
+}
+
+.box {
+    width: 200px;
+    /* largura */
+    height: 100px;
+    /* altura */
+    background-color: blue;
+    border: 3px solid red;
+    margin: 200px;
+}
+
+.uva {
+    width: 200px;
+    /* largura */
+    height: 100px;
+    /* altura */
+    background-color: purple;
+    border: 3px solid rgb(210, 104, 210);
+    margin: 200px;
+
 }
