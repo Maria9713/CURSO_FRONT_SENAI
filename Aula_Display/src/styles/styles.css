@@ -1,0 +1,41 @@
+.box{
+width: 200px;
+height: 100px;
+padding: 20px;
+border: 10px solid  #000;
+background-color: purple;
+box-sizing: border-box; /* garantir que o elemento fixe a altura e largura */
+}
+
+.block{
+background-color: blueviolet;
+color: #ffff;
+padding: 10px 20px;
+border: 2px solid #000;
+display: block; /* ocupa toda a largura disponivel*/
+}
+
+.inline{
+    background-color: #fff000;
+    padding: 10px;
+    border: 2px solid #000;
+    display: inline;/*Ocupa somente o espaço do conteúdo, possivel deixar um elemento do lado do outro, não permite modificação na largura e/ou altura*/
+}
+
+.inline-block{
+background-color: #af0899;
+color: #fff;
+padding: 10px;
+border: 2px solid #530e4a;
+height: 120px;
+width: 212px;
+display: inline-block; /*Permite modificação na altura e largura*/
+}
+
+.flex{
+background-color: #8e0db5;
+color: #fff;
+border: 1px dotted #fff000;
+padding: 10px 5px;
+display: flex;
+}
