@@ -1,0 +1,38 @@
+.block{
+    background-color: lightblue;
+    display: block;
+    border: 2px solid blue;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.inline{
+background-color: greenyellow;
+border: 2px solid green;
+padding: 10px;
+display: inline;
+}
+
+.box{
+background-color: rgb(245, 167, 138);
+border: 2px solid red;
+height: 90px;
+width: 90px;
+display: inline-block;
+margin-top: 10px;
+}
+
+.flex{
+    background-color: rgb(227, 219, 219);
+    padding: 10px 5px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.box-flex{
+background-color: lightpink;
+padding: 18px;
+border: 2px solid black;
+}
+
