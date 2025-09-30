@@ -1,0 +1,13 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+:root{
+
+    --color-purple: purple;
+    --color-yellow: yellow;
+    --color-purple2:rgb(240, 48, 240);
+}

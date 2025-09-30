@@ -1,0 +1,9 @@
+@import url("./global.css"); /* importação do global.css */
+
+p{
+color: var(--cor-azul);
+}
+
+h1{
+color: var(--cor-azul);
+}
