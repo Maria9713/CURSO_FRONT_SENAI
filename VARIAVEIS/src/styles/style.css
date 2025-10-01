@@ -1,13 +1,36 @@
 @import url("./global.css");
 
-h1{
-color: var(--color-purple);
+h1 {
+    color: var(--color-purple);
+    margin-bottom: 5px;
 }
 
-h2{
-color: var(--color-purple2);
+h2 {
+    color: var(--color-purple2);
+    margin-bottom: 5px;
 }
 
-p{
+p {
+    color: var(--color-yellow);
+    margin-bottom: 5px;
+}
+
+button {
+    margin: 10px;
+    color: var(--color-yellow);
+    background-color: var(--color-purple);
+    padding: 12px 25px;
+    border: 1px solid grey;
+    border-radius: 10px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-purple2);
+    border-radius: 10px 10px;
+}
+
+h1:hover{
+text-decoration:overline;/* da efeito a transação  */
 color: var(--color-yellow);
 }

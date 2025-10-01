@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end ;
+    background-color: grey;
+    height: 900px;
+}
+
+.item {
+    background-color: lightcoral;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+/* Justify-content */
+/* center alinha ao centro */
+/* flex-end alinha a direita */
+/* flex-start alinhado a esquerda */
+/* space-around espaço igual ao redor de cada item */
+/* space-between deixa umv espaço igual entre os elementos */
+/* space-evenly ???????????? */
+
+/* aling-itens */
+/* flex end alinha a baixo */
+/* flex start alinha a cima */
+
+
+
