@@ -1,7 +1,8 @@
 .box {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end ;
+    /* justify-content: center;
+    align-items: center ; */
+    flex-direction: column-reverse;
     background-color: grey;
     height: 900px;
 }
@@ -12,9 +13,11 @@
     height: 80px;
     border: 1px solid #000;
     margin: 10px;
+    font-size: 50px;
 }
 
 /* Justify-content */
+/* flebox roggy - jogo */
 /* center alinha ao centro */
 /* flex-end alinha a direita */
 /* flex-start alinhado a esquerda */
@@ -25,6 +28,14 @@
 /* aling-itens */
 /* flex end alinha a baixo */
 /* flex start alinha a cima */
+
+
+/* flex-direction */
+/* row da esquerda para direita */
+/* row-reverte da direita para esquerda */
+/* column deixa os itens em colunas de cima para baixo */
+/* column-reverse de baixo para cima */
+/* flexbox zoobies - jogo */
 
 
 
