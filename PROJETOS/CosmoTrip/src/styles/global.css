@@ -26,4 +26,14 @@ box-sizing: border-box;
     --font-body2: 18px;
     --font-body3: 16px;
     --font-body4: 14px;
+
+    --font-title: "Alexandria", sans-serif;
+    --font-body: "Inter", sans-serif;
 }
+
+p{
+color: var(--color-grey);
+font-family: var(--font-body);
+font-size: var(--font-body2);
+}
+
