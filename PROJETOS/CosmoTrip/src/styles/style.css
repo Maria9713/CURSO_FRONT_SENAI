@@ -66,7 +66,7 @@ main .section-indicator {
     border-radius: 24px;
     padding: 12px 20px;
     color: var(--color-pink);
-    border: 1px solid var(--color-d-gray);
+    border: 1px solid var(--color-d-grey);
     font-family: var(--font-title);
     font-weight: bold;
     font-size: var(--font-body4);
@@ -112,7 +112,7 @@ h1 span {
     font-family: var(--font-body);
     font-size: var(--font-body3);
     color: var(--color-white);
-    border: 1.5px solid var(--color-d-gray);
+    border: 1.5px solid var(--color-d-grey);
     border-radius: 10px;
     padding: 14px 24px;
 }
@@ -332,8 +332,56 @@ justify-content: center;
     font-weight: 500;
 }
 
-.container-review{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 20px;
+.container-review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section-faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-l-black);
+    padding: 40px 0px;
+    gap: 60px;
+}
+
+/* .container-faq {} */
+
+.faq-item {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 1138px;
+    align-items: center;
+    border-radius: 10px;
+    border-bottom: 1px solid var(--color-d-grey);
+    cursor: pointer;
+}
+
+.fac-item:hover {
+    background-color: var(--color-pink);
+
+
+}
+
+.faq-item h3 {
+    font-size: var(--font-h4);
+    color: var(--color-white);
+    font-family: var(--font-title);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.footer-navigation {
+display: flex;
+align-items: start;
+gap: 60px;
+
 }
