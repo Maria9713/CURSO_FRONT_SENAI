@@ -361,7 +361,7 @@ justify-content: center;
     cursor: pointer;
 }
 
-.fac-item:hover {
+.faq-item:hover {
     background-color: var(--color-pink);
 
 
@@ -383,5 +383,30 @@ footer {
 display: flex;
 align-items: start;
 gap: 60px;
+}
 
+.footer-navigation-item{
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.footer-navigation-item h2 {
+font-size: var(--font-body1);
+font-family: var(--font-body);
+font-weight: 400;
+}
+
+.footer-nav ul {
+display: flex;
+flex-direction: column;
+gap: 8px;
+list-style: none;
+}
+
+.footer-nav ul li a{
+text-decoration: none;
+color: var(--color-grey);
+font-family: var(--font-body);
+font-size: var(--font-body4);
 }
