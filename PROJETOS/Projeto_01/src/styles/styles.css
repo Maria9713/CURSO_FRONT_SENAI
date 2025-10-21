@@ -1,0 +1,43 @@
+@import url("./global.css");
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.div-header{
+display: flex;
+gap: 70px;
+}
+
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header-item {
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-body);
+    color: var(--color-neutra-black);
+}
+
+.active {
+    color: var(--color-primary-blue);
+}
+
+.btn-contato{
+    padding: 8px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+        font-family: var(--font-body);
+    font-size: var(--font-body2);
+    background-color: var(--color-primary-blue);
+    color: var(--color-secundary-white);
+
+}
