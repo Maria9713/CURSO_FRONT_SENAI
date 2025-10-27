@@ -197,89 +197,180 @@ h2 span {
     padding: 70px 27px;
 }
 
-.section-box-information{
+.section-box-information {
     display: flex;
     justify-content: center;
     padding: 140px 0px;
 }
 
-.combo-box-information{
-display: flex;
-gap: 20px;
-align-items: center;
+.combo-box-information {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-.box-information{
-display: flex;
-flex-direction: column;
-gap:35px ;
-background-color: #F4F4F4;
-padding: 59px 48px;
-width: 572px;
-align-items: center;
-border-radius: 20px;
-text-align: center;
+.box-information {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #F4F4F4;
+    padding: 59px 48px;
+    width: 572px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
 }
 
-.box-information h2{
+.box-information h2 {
     font-family: var(--font-title);
     font-size: var(--font-h3);
     width: 365px;
-    
+
 }
 
-.box-information p{
+.box-information p {
     font-family: var(--font-body);
     font-size: var(--font-body);
     color: var(--color-neutra-gray);
 }
 
-.box-information a{
-text-decoration: none;
-font-family: var(--font-body);
-font-size: var(--font-body);
-color: var(--color-secundary-white);
-background-color: var(--color-primary-blue);
-border-radius: 10px;
-padding: 10px 35px;
+.box-information a {
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-body);
+    color: var(--color-secundary-white);
+    background-color: var(--color-primary-blue);
+    border-radius: 10px;
+    padding: 10px 35px;
 
 }
 
-.box-information-2{
-display: flex;
-flex-direction: column;
-gap:35px ;
-background-color: var(--color-primary-blue);
-padding: 59px 48px;
-width: 572px;
-align-items: center;
-border-radius: 20px;
-text-align: center;
+.box-information-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: var(--color-primary-blue);
+    padding: 59px 48px;
+    width: 572px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
 }
 
-.box-information-2 h2{
+.box-information-2 h2 {
     font-family: var(--font-title);
     font-size: var(--font-h3);
     color: var(--color-secundary-white);
     width: 365px;
-    
+
 }
 
-.box-information-2 p{
+.box-information-2 p {
     font-family: var(--font-body);
     font-size: var(--font-body);
     color: var(--color-secundary-white);
 }
 
-.box-information-2 a{
-text-decoration: none;
-font-family: var(--font-body);
-font-size: var(--font-body);
-color: var(--color-primary-blue);
-background-color: var(--color-secundary-white);
-border-radius: 10px;
-padding: 10px 35px;
+.box-information-2 a {
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-body);
+    color: var(--color-primary-blue);
+    background-color: var(--color-secundary-white);
+    border-radius: 10px;
+    padding: 10px 35px;
 
 }
 
+.section-pertners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+}
 
+.section-pertners h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-h3);
+}
+
+.card-pertners {
+    display: flex;
+    gap: 80px;
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-blue-10);
+    gap: 80px;
+    padding: 140px 0px;
+}
+
+.section-contact h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-h2);
+    width: 478px;
+    text-align: center;
+}
+
+.form-contact {
+    display: flex;
+    gap: 14px;
+}
+
+.form-contact input {
+    padding: 20px 36px;
+    width: 532px;
+    border-radius: 10px;
+}
+
+.section-contact button {
+    font-family: var(--font-body);
+    font-size: var(--font-body);
+    text-transform: uppercase;
+    color: var(--color-secundary-white);
+    padding: 20px 45px;
+    background-color: var(--color-neutra-black);
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    padding: 60px 0px;
+    gap: 99px;
+}
+
+.footer-navigation {
+    display: flex;
+
+}
+
+.footer-nav li {
+    list-style: none;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
+
+.footer-navigation-item {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    gap: 15px;
+    color: var(--color-neutra-gray);
+    font-family: var();
+    font-size: var(--font-body2);
+}
+
+.footer-navigation-item h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-body);
+}
+
+.footer-navigation-item img {
+    width: 45px;
+    height: 24px;
+}
