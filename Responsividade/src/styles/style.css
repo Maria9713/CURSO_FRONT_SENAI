@@ -1,0 +1,27 @@
+/* html{
+height: 100%; altura
+background: linear-gradient(210deg, blue, red, orange) ;
+deg para o degrade ficar na diagonal
+} */
+/* button{
+padding: 10px 25px; 
+border-radius: 10px;
+background: linear-gradient(210deg, blue, red, orange) ;
+} */
+
+.box{
+height: 200px;
+width: 200px;
+background-color: purple;
+transition: 0.3s;
+/* velocidade da animação  */
+}
+
+.box:hover{
+/*transform: translate(40px, 100px); primeiro x dpeois y, move o elemento */
+/* transform: scale(1.1) aumenta o tamamnho do objeto;
+box-shadow: 0px 0px 6px 0px #000; */
+/* transform: rotate(360deg); */
+/* transform: skewX(30deg); inclina o objeto */
+
+}

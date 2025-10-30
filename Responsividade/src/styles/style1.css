@@ -1,0 +1,22 @@
+/* Notebook --> 1200px
+Tablet --> 884px
+Celular --> 480px */
+
+@media(max-width: 1200px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media(max-width: 884px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+    background-color: darkgreen;
+    }
+    
+}
